@@ -15,4 +15,7 @@ urlpatterns = [
 
     #API LOGIN
     path('api/login/', views.LoginAPIView.as_view(), name='login_api'),
+
+    #API GET LISTAR TAREAS
+    path('api/tareas/', views.TareasApiView.as_view(),name='tareas_api'),
 ]
